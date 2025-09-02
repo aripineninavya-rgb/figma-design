@@ -16,7 +16,8 @@
     line-height: 160px ;
     letter-spacing: -0.02em;
     color: #0A1932;
-    
+    margin-top: 30px;
+    margin-left: 40;
 }
 
 .logo-dot {
@@ -52,29 +53,31 @@
     border: none;
 }
 
+
 .main-header {
     max-width: 495px;
-    width: 100%;
+    width: 70%;
     margin-top: 203px;
     margin-left: 200px;
     font-family: 'Ramaraja', serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 72px;
     line-height: 76px;
-    /* or 106% */
     letter-spacing: 0.02em;
     color: #1B0A42;
 }
 
+
+
 .main-contant {
-    max-width: 583px;
-    width: 100%;
+    max-width: 495px;
+    width: 50%;
     margin-top: 10px;
     margin-left: 200px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     /* or 160% */
@@ -87,14 +90,13 @@
     height: 64px;
     margin-top: 50px;
     margin-left: 200px;
-    background-color: #A3DC00;
+    background-color: #1B0A42;
     border-radius: 6px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 32px;
-    /* or 200% */
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -102,9 +104,11 @@
 }
 
 img {
-    max-width: 756px;
-    width: 100%;
-    margin-left: 10px;
+    display: flex;
+    max-width: 821vw;
+    width: 50%;
+    margin-left: 785px;
+    margin-top: 226;
 }
 
 section {
